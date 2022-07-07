@@ -81,13 +81,14 @@ a {
 
 }
 
-#Donate_item h1 {
+.titel {
     font-size: 65px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
+    text-align: center;
 }
 
-#Donate_item .donate_tex {
+.donate_tex {
 
 
     font-size: 18px;
@@ -158,7 +159,66 @@ a {
     margin-bottom: 46px;
 }
 
-
 /*  ==================================================
                      Donate Section End
+    ==================================================  */
+/*  ==================================================
+                    Donation plan Item Start
+    ==================================================  */
+
+
+#Donation_plan {
+    width: 1280px;
+    margin: auto;
+    padding-top: 174px;
+    margin-top: 174px;
+}
+
+
+#Donation_plan .item {
+    border: 3px solid #FAFAFA;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 360px;
+    height: 352px;
+    background-color: #FAFAFA;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#Donation_plan .food {
+    background-color: #cccccc45;
+}
+
+#Donation_plan .shelter {
+    background-color: #ff59593f;
+}
+
+#Donation_plan .Frame {
+    background-color: #FFF4D6;
+}
+
+#Donation_plan .text_area {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#Donation_plan img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#Donation_plan h3 {
+    margin-bottom: 15px;
+
+}
+
+
+
+/*  ==================================================
+                    Donation plan Item End
     ==================================================  */
