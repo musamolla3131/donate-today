@@ -48,13 +48,14 @@
     margin-bottom: 46px;
 }
 
-#Head_item .item a {
+a {
     color: #FFFFFF;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     padding: 16px 20.5px;
     background-color: #FF5959;
+    border-radius: 5px;
 }
 
 
@@ -66,52 +67,54 @@
     ==================================================  */
 #Donate_item {
     height: 320px;
-    width: 826px;
+    width: 850px;
     margin: auto;
     padding-top: 174px;
     text-align: -webkit-center;
 }
 
-/* .item {
-    background: linear-gradient(180deg, rgb(0 0 0 / 25%) 0%, rgb(0 0 0 / 40%) 50%, rgb(0 0 0 / 78%) 100%);
-    height: 669px;
-    width: 1440px;
-    margin: auto;
-} */
+
 
 #Donate_item .text_area {
     display: flex;
     justify-content: space-between;
-    /* margin: auto; */
-    /* padding-top: 174px; 
-    text-align: -webkit-center; */
+
 }
 
 #Donate_item h1 {
-
-    /* color: #FFFFFF; */
     font-size: 65px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
 }
 
-#Donate_item p {
+#Donate_item .donate_tex {
 
-    /* color: #FFFFFF; */
+
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+
+}
+
+#Donate_item .text_area .item p {
+
     font-size: 36px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     color: #707070;
     padding-top: 43px;
 
-    /* width: 691px;
-    margin-top: 20px;
-    margin-bottom: 46px; */
+
 }
 
-#Donate_item .item {
 
-    /* color: #FFFFFF; */
+#Donate_item .item {
+    border: 3px solid #FAFAFA;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -120,6 +123,18 @@
     margin-top: 20px;
     margin-bottom: 46px;
     background-color: #FAFAFA;
+    padding: 0 12px;
+
+}
+
+#Donate_item .item:hover {
+
+    border: 3px solid #FF5959;
+    background-color: #FFEEEE;
+}
+
+#Donate_item .item:hover p {
+    color: #FF5959;
 }
 
 #Donate_item .Head_item a {
@@ -129,6 +144,18 @@
     font-weight: 600;
     padding: 16px 20.5px;
     background-color: #FF5959;
+}
+
+#Donate_item input {
+    outline: 0;
+    border-width: 0 0 2px;
+    padding: 10px;
+    text-align: -webkit-center;
+    width: 831px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 46px;
 }
 
 
