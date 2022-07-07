@@ -222,3 +222,32 @@ a {
 /*  ==================================================
                     Donation plan Item End
     ==================================================  */
+
+/*  ==================================================
+                My Updates Item Start 
+    ==================================================  */
+#My_updates {
+    width: 1280px;
+    margin: auto;
+    margin-top: 174px;
+}
+
+#My_updates .text_area {
+    height: 200px;
+    width: 1280px;
+    background-color: #FFF4D6;
+    text-align: center;
+
+}
+
+#My_updates .input {
+    height: 200px;
+    width: 1280px;
+    background-color: #FF5959;
+    text-align: center;
+
+}
+
+/*  ==================================================
+                My Updates Item End
+    ==================================================  */
