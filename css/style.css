@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     text-decoration: none;
+    margin: 0 auto;
 
 }
 
@@ -9,7 +10,7 @@
                      Header Section Start
     ==================================================  */
 #Head_item {
-    background: url("/images/donation1.jpg") no-repeat center;
+    background: url("../images/donation1.jpg") no-repeat center;
     background-size: 1440px 713px;
     height: 669px;
 }
@@ -81,25 +82,26 @@ a {
 
 }
 
-.titel {
+.title {
     font-size: 65px;
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
+    width: 691px;
     text-align: center;
 }
 
+.title h1 {
+    font-size: 65px;
+    font-family: 'Inter', sans-serif;
+
+}
+
 .donate_tex {
-
-
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #707070;
-    text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
-
-
 }
 
 #Donate_item .text_area .item p {
@@ -109,8 +111,6 @@ a {
     font-weight: 600;
     color: #707070;
     padding-top: 43px;
-
-
 }
 
 
@@ -125,7 +125,6 @@ a {
     margin-bottom: 46px;
     background-color: #FAFAFA;
     padding: 0 12px;
-
 }
 
 #Donate_item .item:hover {
@@ -233,9 +232,10 @@ a {
 }
 
 #My_updates .text_area {
-    width: 1280px;
+    width: 800px;
     background-color: #FFF4D6;
     text-align: center;
+    padding: 76px 0;
 
 
 }
@@ -244,21 +244,22 @@ a {
     height: 48px;
     width: 275px;
     background-color: #D9D9D9;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     padding-left: 20px;
     border: none;
-    margin: 100px 0;
+    outline: none;
 
 }
 
 #My_updates button {
     height: 48px;
-    width: 275px;
+    width: 160px;
     background-color: #FF5959;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     border: none;
-    color: FFFFFF;
+    color: #FFFFFF;
+    margin-left: -10px;
 
 }
 
@@ -266,27 +267,37 @@ a {
                 My Updates Item End
     ==================================================  */
 
-/* Footer Part */
+/*  ==================================================
+                Footer part Start
+    ==================================================  */
+
+
 
 footer {
     background-color: #0B0D17;
-    text-align: center;
-    padding: 100px 0;
+    padding: 43px 0;
     margin-top: 100px;
+    width: 1440px;
 }
 
 footer h1 {
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-family: 'Lobster', sans-serif;
     font-weight: 400;
     color: #FF5959;
+    text-align: center;
 
 }
 
 footer p {
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     color: #D9DBE1;
-    margin-top: 30px;
+    margin-top: 24px;
+    text-align: center;
 }
+
+/*  ==================================================
+                        Footer part Start
+    ==================================================  */
